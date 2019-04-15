@@ -2,7 +2,7 @@ package towers;
 
 import java.util.*;
 
-public class TowersOfHanoi
+public class TOWERSOFHANOI
 {
     public static int[][] towers;
     public static int[][] temp;
@@ -11,10 +11,10 @@ public class TowersOfHanoi
     
     public static void main(String[] args)
 	{
-	    String uOrA = readLine("Do you want to play or the computer to solve it(User) ");
+	    String uOrA = readLine("Do you want to play or the computer to solve it(User or Auto) ");
 	    if(uOrA.equals("User"))
 	    {
-	        while(readBoolean("Do you want to play a round "))
+	        while(readBoolean("Do you want to play a round(True or False) "))
 	        {
 	            playGame();
 	        }
